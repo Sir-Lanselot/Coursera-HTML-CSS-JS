@@ -1,0 +1,112 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  margin-bottom: 15px;
+}
+
+#chickenHeading {
+ color: white;
+ font-weight: 900;
+ font-size: 1.2em;
+ background-color: grey;
+ border: 1px solid black;
+ display: block;
+ float: left;
+ position: absolute;
+}
+
+#beefHeading {
+ color: white;
+ font-weight: 900;
+ font-size: 1.2em;
+ background-color: grey;
+ border: 1px solid black;
+ position: absolute;
+}
+
+#sushiHeading {
+ color: white;
+ font-weight: 900;
+ font-size: 1.2em;
+ background-color: grey;
+ border: 1px solid black;
+ position: absolute;
+
+}
+
+#chickenBox {
+  background-color: blue;
+  border: 1px solid black;
+  width: 28%;
+  padding: 2.5em 1em 1em 1em;
+  float: left;
+}
+
+#beefBox {
+  background-color: green;
+  border: 1px solid black;
+  width: 28%;
+  padding: 2.5em 1em 1em 1em;
+  float: left;
+}
+
+#sushiBox {
+  background-color: hotpink;
+  border: 1px solid black;
+  width: 28%;
+  padding: 2.5em 1em 1em 1em;
+  float: left;
+ }
+
+p {
+  border: 1px solid black;
+  font-family: Helvetica;
+  color: white;
+}
+
+#clearFloat{
+  clear: both;
+
+}
+
+div#mainBox{
+  width: 95%;
+  padding: 0.5em;
+}
+
+div {
+  margin: 1em;
+  padding: 0.5em;
+
+}
+
+@media (max-width:992px){
+  #chickenBox{
+    width: 33.33%;
+  }
+  #beefBox{
+    width: 33.33%;
+  }
+  #sushiBox{
+    width: 33.33%;
+    margin-top: 10px;
+  }
+}
+
+@media (min-width:768px) and (max-width: 991px){
+  #chickenBox{
+    width: 49.98%;
+  }
+  #beefBox{
+    width: 49.98%;
+  }
+  #sushiBox{
+    width: 90%;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+}
