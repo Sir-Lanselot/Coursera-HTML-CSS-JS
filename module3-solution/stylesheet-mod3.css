@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  
+}
+
+body {
+	color: white;
+	background-color: blueviolet;
+
+}
+
+#header-nav {
+	background-color: hotpink;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand h1 {
+	color: white;
+	font-family: helvetica, sans-serif, arial;
+	font-size: 2.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+	align:left;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: white;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: lightyellow;
+  color: blueviolet;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid blue;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+/* Home Page */
+
+#chicken-tile, #beef-tile, #sushi-tile {
+  height: 1750px;
+  width: 100%;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #FFFFFF;
+  overflow: hidden;
+}
+
+#chicken-tile:hover, #beef-tile:hover, #sushi-tile:hover {
+	box-shadow: 0 1px 10px #cccccc;
+}
+
+#menu-name h2 {
+	color: white;
+	font-family: helvetica, sans-serif, arial;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: 600;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 10px;
+	line-height: 2em;
+}
+
+h3 {
+ 	color: white;
+	font-family: helvetica, sans-serif, arial;
+	font-size: 1.5em;
+	font-weight: 600;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
